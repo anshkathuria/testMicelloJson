@@ -1,0 +1,80 @@
+{
+    "id": 18193,
+    "languages": ["en"],
+    "drawings": [{
+        "id": 18885,
+        "ref_frame": {
+            "transform": [7.367601967191072E-6, -6.347484752374281E-10, -6.519795752419905E-10, -7.172884385365965E-6, 77.704002, 13.201957],
+            "height": 590.555,
+            "angle_deg": 0.005,
+            "width": 2493.890,
+            "local2m": 0.7984880680857316
+        },
+        "levels": [{
+            "id": 29207,
+            "properties": {
+                "name": "1",
+                "type": "outdoor",
+                "zlevel": 0,
+                "main": true
+            },
+            "obj_type": "Level"
+        }],
+        "properties": {
+            "is_root": true,
+            "display_name": "Bengaluru International Airport",
+            "map_type": "Airport",
+            "name": "Bengaluru International Airport"
+        },
+        "obj_type": "Drawing"
+    }, {
+        "id": 28670,
+        "ref_frame": {
+            "transform": [7.367601967191072E-6, -6.347499051003783E-10, -6.519795752419905E-10, -7.172900543327786E-6, 77.707977, 13.201406],
+            "height": 435.227,
+            "angle_deg": 0.005,
+            "width": 1765.770,
+            "local2m": 0.7984880680857316
+        },
+        "levels": [{
+            "id": 46746,
+            "properties": {
+                "name": "G",
+                "zlevel": 0
+            },
+            "obj_type": "Level"
+        }, {
+            "id": 46745,
+            "properties": {
+                "root_geom": 5186764,
+                "name": "1",
+                "parent_level": 29207,
+                "zlevel": 1,
+                "main": true
+            },
+            "obj_type": "Level"
+        }],
+        "properties": {
+            "display_name": "Bengaluru International Airport",
+            "map_type": "Shopping Mall",
+            "name": "Bengaluru International Airport"
+        },
+        "obj_type": "Drawing"
+    }],
+    "location": {
+        "type": "Point",
+        "coordinates": [77.7091070, 13.2009250]
+    },
+    "entity_version": 2,
+    "default_lang": "en",
+    "properties": {
+        "street address": "Bial Road",
+        "name": "Bengaluru International Airport",
+        "com_type": "Airport",
+        "default_lang": "en",
+        "city": "Bangalore",
+        "country": "IN"
+    },
+    "map_version": 5,
+    "obj_type": "CommunityMap"
+}
